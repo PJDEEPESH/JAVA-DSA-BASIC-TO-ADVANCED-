@@ -1,4 +1,4 @@
- class Solution {
+class Solution {
 
     public static int scoreOfString(String s) {
         int score = 0;
