@@ -4,6 +4,7 @@ class Solution {
         int score = 0;
         for (int i = 1; i < s.length(); i++) {
             score += Math.abs(s.charAt(i)); 
+            
         }
         return score;
     }
