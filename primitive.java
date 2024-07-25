@@ -1,4 +1,4 @@
-class primitivepublic 
+public class primitivepublic 
 {
     public static void main(String[] args) 
     {
