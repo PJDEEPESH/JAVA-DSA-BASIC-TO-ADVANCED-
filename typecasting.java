@@ -3,6 +3,7 @@ class typecasting
 {
     public static void main(String[] args) 
     {
+        
         Scanner scan = new Scanner(System.in);
         // float to int 
         int num =(int)65.43f;
