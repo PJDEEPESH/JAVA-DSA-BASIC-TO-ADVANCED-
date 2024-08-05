@@ -1,0 +1,20 @@
+import java.util.Arrays;
+
+class functionoverloading
+{
+    public static void main(String[] args) 
+    {
+        System.out.println(fun(1, 2, 3, 4, 5));
+        System.out.println(fun("Deepu", "Rajesh"));
+    }
+    
+    static String fun(int ...a)
+    {
+        return Arrays.toString(a);
+    }
+
+    static String fun(String ...a)
+    {
+        return Arrays.toString(a);
+    }
+}
