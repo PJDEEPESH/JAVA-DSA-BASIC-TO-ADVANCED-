@@ -16,6 +16,15 @@ class Solution {
             index = 2;
         }
       //another loop
+        // for(int i = 0;i<items.size();i++)
+        //     {
+        //         if(items.get(i).get(index).equalsto(rulevalue))
+        //         {
+        //             count++;
+        //         }
+                
+        //     }
+        // return count;
         for(List<String> item : items)
         {
             if(item.get(index).equals(ruleValue))
