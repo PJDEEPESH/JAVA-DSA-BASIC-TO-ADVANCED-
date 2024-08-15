@@ -14,7 +14,7 @@ class Solution {
                     }
                   for(int l =0 ;l<matrix.length;l++)
                     {
-                      max = Math.max(max,matrix[l][j];
+                      max = Math.max(max,matrix[l][j]);
                     }
                 if(min == element && max == element)
                 {
