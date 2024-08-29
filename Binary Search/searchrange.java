@@ -2,9 +2,11 @@ class Solution
 {
     public int[] searchRange(int[] nums, int target) 
     {
+        
         int start = 0;
         int end = nums.length - 1;
         int[] ans = {-1,-1};
+        //search elemt in the left side
         while(start <= end)
         {
             int mid = start + (end - start)/2;
