@@ -1,6 +1,5 @@
 import java.util.Arrays;
 class bubblesort
-    //also known as sinking sort 
 {
     public static void main(String[] args)
     {
